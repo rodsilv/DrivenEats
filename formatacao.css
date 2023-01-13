@@ -1,0 +1,475 @@
+.container {
+    width: 414px;
+    height: 1055px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .caixatopo {
+    width: 414px;
+    height: 92px;
+    background: #cf2b2b;
+    box-shadow: rgb(165, 160, 160) 0px 4px 4px;
+    position: fixed;
+    z-index: 5;
+  }
+  .marca {
+    height: 44px;
+    width: 248px;
+    margin-top: 8px;
+    margin-left: 21px;
+    font-family: Righteous;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    text-align: left;
+    color: #ffffff;
+    background-color: none;
+  }
+  .frasetopo {
+    height: 17px;
+    width: 226px;
+    margin-top: 5px;
+    margin-left: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .suportetopo {
+    width: 414px;
+    height: 92px;
+  }
+  .principal {
+    width: 414px;
+    height: 871px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+  }
+  .sombratopo {
+    width: 414px;
+    height: 4px;
+    background-color: none;
+    position: fixed;
+  }
+  .caixalinha {
+    width: 414px;
+    height: 285px;
+    backgrouns: #e5e5e5;
+  }
+  
+  .frase-produto {
+    height: 25px;
+    width: 320px;
+    margin-left: 19px;
+    margin-top: 27px;
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+    background-color: #e5e5e5;
+  }
+  .caixaitens {
+    height: 216px;
+    width: 414px;
+    margin-top: 17px;
+    background-color: #e5e5e5;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .suporteitem {
+    height: 216px;
+    width: 19px;
+    background-color: none;
+  }
+  .suporteitem2 {
+    height: 216px;
+    width: 19px;
+    background-color: none;
+  }
+  .item {
+    height: 216px;
+    width: 172px;
+    margin-right: 16px;
+    background-color: none;
+    position: relative;
+  }
+  .caixasuporteitem {
+    height: 216px;
+    width: 172px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .escondido {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25),
+      inset 0px 0px 0px 5px #32b72f;
+    border-radius: 9px;
+  }
+  .escondido2 {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25),
+      inset 0px 0px 0px 5px #32b72f;
+    border-radius: 9px;
+  }
+  .escondido3 {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25),
+      inset 0px 0px 0px 5px #32b72f;
+    border-radius: 9px;
+  }
+  .imagem-item {
+    height: 87px;
+    width: 144px;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 14px;
+    background-color: gold;
+  }
+  .foto-item {
+    height: 87px;
+    width: 144px;
+    border-radius: 4px;
+  }
+  .nomedoitem {
+    height: 23px;
+    width: 147px;
+    margin-left: 15px;
+    margin-top: 8px;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    color: #333333;
+  }
+  .descricaoitem {
+    height: 39px;
+    width: 147px;
+    margin-top: 4px;
+    margin-left: 14px;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #a6a6a6;
+  }
+  .precoitem {
+    height: 19px;
+    width: 66px;
+    margin-top: 5px;
+    margin-left: 14px;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    color: #000000;
+  }
+  .bordavisto {
+    height: 216px;
+    width: 172px;
+    background-color: none;
+    display: flex;
+    position: fixed;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25),
+      inset 0px 0px 0px 5px #32b72f;
+    border-radius: 9px;
+    display: none;
+  }
+  .check2 {
+    display: flex;
+  }
+  .visto {
+    color: green;
+    height: 18.4375px;
+    width: 18.4375px;
+    top: 183.78px;
+    left: 141.78px;
+    position: absolute;
+    display: none;
+  }
+  .caixabaixo {
+    background-color: #ffffff;
+    width: 414px;
+    height: 92px;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+  }
+  
+  .finalizarpedido {
+    height: 61px;
+    width: 364px;
+    border-radius: 50px;
+    background-color: #cbcbcb;
+    margin-top: 15px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+  
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.018em;
+    text-align: center;
+    color: #ffffff;
+  }
+  .finalizarpedidoverde {
+    position: fixed;
+    background-color: #32b72f;
+    height: 61px;
+    width: 364px;
+    border-radius: 50px;
+    bottom: 16px;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.018em;
+    text-align: center;
+    color: #ffffff;
+  }
+  .oculto2 {
+    display: none;
+  }
+  .outraaba {
+    position: fixed;
+    top: 316px;
+    left: 19px;
+    height: 353px;
+    width: 377px;
+    background: #50d074;
+    z-index: 10;
+  
+    flex-wrap: wrap;
+    border-radius: 9px;
+    display: none;
+  }
+  .confirmeopedio {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27px;
+    width: 376px;
+    border-radius: nullpx;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  .doprato1 {
+    position: absolute;
+    height: 27px;
+    width: 172px;
+    margin-top: 76px;
+    margin-left: 26px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .dabebida1 {
+    position: absolute;
+    height: 27px;
+    width: 172px;
+    margin-top: 116px;
+    margin-left: 26px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .dasobremesa1 {
+    position: absolute;
+    height: 27px;
+    width: 172px;
+    margin-top: 156px;
+    margin-left: 26px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .doprato {
+    position: absolute;
+    height: 27px;
+    width: 61px;
+    margin-top: 76px;
+    margin-left: 255px;
+    border-radius: nullpx;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: right;
+    color: #ffffff;
+  }
+  .dabebida {
+    position: absolute;
+    height: 27px;
+    width: 61px;
+    margin-top: 116px;
+    margin-left: 255px;
+    border-radius: nullpx;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: right;
+    color: #ffffff;
+  }
+  .dasobremesa {
+    position: absolute;
+    height: 27px;
+    width: 61px;
+    margin-top: 156px;
+    margin-left: 255px;
+    border-radius: nullpx;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: right;
+    color: #ffffff;
+  }
+  .total {
+    position: absolute;
+    height: 27px;
+    width: 73px;
+    margin-top: 196px;
+    margin-left: 26px;
+    border-radius: nullpx;
+    background-color: red;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .valortotal {
+    position: absolute;
+    background-color: red;
+    height: 27px;
+    width: 97px;
+    margin-top: 196px;
+    margin-left: 255px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: right;
+    color: #ffffff;
+  }
+  .tudocerto {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 247px;
+    margin-left: 24px;
+    border-radius: nullpx;
+    background: #ffffff;
+  
+    height: 52px;
+    width: 329px;
+    border-radius: 100px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    text-align: center;
+    color: #50d074;
+  }
+  .cancelar {
+    height: 52px;
+    width: 333px;
+    position: absolute;
+    border-radius: nullpx;
+    margin-top: 299px;
+    margin-left: 24px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.018em;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .xyz {
+    display: flex;
+  }
+  

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Projeto 3
+    </title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="formatacao.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <title>Exercício</title>
+  </head>
+  <body>
+    <font-family: 'Righteous', cursive;></font-family:>
+    <font-family: 'Roboto', sans-serif;></font-family:>
+    <div class="container">
+      <div class="caixatopo">
+        <div class="marca">DrivenEats</div>
+        <div class="frasetopo">Sua comida em 6 minutos</div>
+      </div>
+      <div class="suportetopo"></div>
+      <div class="principal">
+        <div class="sombratopo"></div>
+        <div class="caixalinha">
+          <div class="frase-produto">Primeiro, seu prato</div>
+          <div class="caixaitens">
+            <div class="suporteitem">
+              <div class="suporteitem2"></div>
+            </div>
+            <div data-test="dish" class="item">
+              <div onclick="selecionandoitemcomida(this)" class="caixasuporteitem">
+                
+                
+                <div class="imagem-item">
+                  <img class="foto-item" src="Comida/frango_yin_yang.png" />
+                </div>
+                <div class="nomedoitem">Frango Yin Yang</div>
+                <div class="descricaoitem">Um pouco de batata, um pouco de salada</div>
+                <div data-test="item-price" class="precoitem">R$ 14,90</div>
+                <div onclick="checkaparecendo(this)" class="check check2"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+            </div>
+            <div data-test="dish" class="item">
+                <div onclick="selecionandoitemcomida(this)" class="caixasuporteitem">
+                  
+                  
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/frango_yin_yang.png" />
+                  </div>
+                  <div class="nomedoitem">PF Frango</div>
+                  <div class="descricaoitem">Arroz, feijão, farofa e frango grelhado</div>
+                  <div data-test="item-price" class="precoitem">R$ 19,90</div>
+                  <div onclick="checkaparecendo(this)" class="check check2"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+                </div>
+              </div>
+
+              <div data-test="dish" class="item">
+                  <div onclick="selecionandoitemcomida(this)" class="caixasuporteitem">
+                    
+                    
+                    <div class="imagem-item">
+                      <img class="foto-item" src="Comida/frango_yin_yang.png" />
+                    </div>
+                    <div class="nomedoitem">PF Carne</div>
+                    <div class="descricaoitem">Arroz, feijão, farofa e crne assada</div>
+                    <div data-test="item-price" class="precoitem">R$ 21,90</div>
+                    <div onclick="checkaparecendo(this)" class="check check2"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+                  </div>
+                </div>
+  
+                <div data-test="dish" class="item">
+                    <div onclick="selecionandoitemcomida(this)" class="caixasuporteitem">
+                      
+                      
+                      <div class="imagem-item">
+                        <img class="foto-item" src="Comida/frango_yin_yang.png" />
+                      </div>
+                      <div class="nomedoitem">BF Bisteca</div>
+                      <div class="descricaoitem">Arroz, feijão, farofa e bisteca de porco</div>
+                      <div data-test="item-price" class="precoitem">R$ 20,90</div>
+                      <div onclick="checkaparecendo(this)" class="check check2"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+                    </div>
+                  </div>
+    
+                  <div data-test="dish" class="item">
+                    <div onclick="selecionandoitemcomida(this)" class="caixasuporteitem">
+                      
+                      
+                      <div class="imagem-item">
+                        <img class="foto-item" src="Comida/frango_yin_yang.png" />
+                      </div>
+                      <div class="nomedoitem">PF Churrasco</div>
+                      <div class="descricaoitem">Arroz, feijão, farofa, picanha e linguiça</div>
+                      <div data-test="item-price" class="precoitem">R$ 25,90</div>
+                      <div onclick="checkaparecendo(this)" class="check check2"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+                    </div>
+                  </div>
+    
+            
+          </div>
+        </div>
+        <div class="caixalinha">
+            <div class="frase-produto">Agora, sua bebida</div>
+            <div class="caixaitens">
+              <div class="suporteitem">
+                <div class="suporteitem2"></div>
+              </div>
+              <div data-test="drink" class="item">
+                <div onclick="selecionandoitembebida(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/coca-cola.png" />
+                  </div>
+                  <div class="nomedoitem">Coquinha gelada</div>
+                  <div class="descricaoitem">Lata 350ml</div>
+                  <div data-test="item-price" class="precoitem">R$ 4,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+              <div data-test="drink" class="item">
+                <div onclick="selecionandoitembebida(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/coca-cola.png" />
+                  </div>
+                  <div class="nomedoitem">Coca-cola gelada</div>
+                  <div class="descricaoitem">Garrafa Pet 2L</div>
+                  <div data-test="item-price" class="precoitem">R$ 11,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+              <div data-test="drink" class="item">
+                <div onclick="selecionandoitembebida(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/coca-cola.png" />
+                  </div>
+                  <div class="nomedoitem">Red Bull gelado</div>
+                  <div class="descricaoitem">Lata 349ml</div>
+                  <div data-test="item-price" class="precoitem">R$ 9,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+              <div data-test="drink" class="item">
+                <div onclick="selecionandoitembebida(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/coca-cola.png" />
+                  </div>
+                  <div class="nomedoitem">Skoll gelada</div>
+                  <div class="descricaoitem">Garrafa 600ml</div>
+                  <div data-test="item-price" class="precoitem">R$ 8,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+              <div data-test="drink" class="item">
+                <div onclick="selecionandoitembebida(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/coca-cola.png" />
+                  </div>
+                  <div class="nomedoitem">Milk Shake</div>
+                  <div class="descricaoitem">Milk Shake com gotas de chocolate 500ml</div>
+                  <div data-test="item-price" class="precoitem">R$ 12,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+            </div>
+        </div>
+        <div class="caixalinha">
+            <div class="frase-produto">Por fim, sua sobremesa</div>
+            <div class="caixaitens">
+              <div class="suporteitem">
+                <div class="suporteitem2"></div>
+              </div>
+              <div data-test="dessert" class="item">
+                <div onclick="selecionandoitemsobremesa(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/pudim.png" />
+                  </div>
+                  <div class="nomedoitem">Pudim</div>
+                  <div class="descricaoitem">Apenas pudim</div>
+                  <div data-test="item-price" class="precoitem">R$ 7,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+              <div data-test="dessert" class="item">
+                <div onclick="selecionandoitemsobremesa(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/pudim.png" />
+                  </div>
+                  <div class="nomedoitem">Pudim de Morango</div>
+                  <div class="descricaoitem">Pudim com recheio e calda de morango</div>
+                  <div data-test="item-price" class="precoitem">R$ 15,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+              <div data-test="dessert" class="item">
+                <div onclick="selecionandoitemsobremesa(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/pudim.png" />
+                  </div>
+                  <div class="nomedoitem">Sorvete</div>
+                  <div class="descricaoitem">Apenas sorvete de baunilha</div>
+                  <div data-test="item-price" class="precoitem">R$ 10,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+              <div data-test="dessert" class="item">
+                <div onclick="selecionandoitemsobremesa(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/pudim.png" />
+                  </div>
+                  <div class="nomedoitem">Palha Italiana</div>
+                  <div class="descricaoitem">Biscoito de maizena com chocolate</div>
+                  <div data-test="item-price" class="precoitem">R$ 12,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+              <div data-test="dessert" class="item">
+                <div onclick="selecionandoitemsobremesa(this)" class="caixasuporteitem">
+                  <div class="imagem-item">
+                    <img class="foto-item" src="Comida/pudim.png" />
+                  </div>
+                  <div class="nomedoitem">Açaí</div>
+                  <div class="descricaoitem">Açaí 100% puro</div>
+                  <div data-test="item-price" class="precoitem">R$ 16,90</div>
+                  <div class="check"><ion-icon class="visto" name="checkmark-circle"></ion-icon></div>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="caixabaixo">
+        <div data-test="order-btn" class="finalizarpedido">Selecione os 3 itens<br>
+          para fechar o pedido</div>
+          <div onclick="verdenovo(this)" class="finalizarpedidoverde oculto2">Fechar pedido</div>
+      </div>
+      <div class="outraaba">
+        <div class="confirmeopedio">Confirme seu pedido</div>
+        <div class="nomex doprato1">2</div>
+        <div class="valorx doprato">1</div>
+        <div class="nomex dabebida1">2</div>
+        <div class="valorx dabebida">1</div>
+        <div class="nomex dasobremesa1">2</div>
+        <div class="valorx dasobremesa">1</div>
+        <div class="total">TOTAL</div>
+        <div class="valortotal">1</div>
+        <div class="tudocerto">Tudo certo, pode pedir!</div>
+        <div class="cancelar">Cancelar</div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
